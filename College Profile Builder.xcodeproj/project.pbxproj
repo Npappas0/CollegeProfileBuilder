@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F9C482A1C5003AB00F706ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C48291C5003AB00F706ED /* ViewController.swift */; };
 		3FEC766C1C4FFEB100784B67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC766B1C4FFEB100784B67 /* AppDelegate.swift */; };
-		3FEC766E1C4FFEB100784B67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC766D1C4FFEB100784B67 /* ViewController.swift */; };
 		3FEC76711C4FFEB100784B67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC766F1C4FFEB100784B67 /* Main.storyboard */; };
 		3FEC76731C4FFEB100784B67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC76721C4FFEB100784B67 /* Assets.xcassets */; };
 		3FEC76761C4FFEB100784B67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC76741C4FFEB100784B67 /* LaunchScreen.storyboard */; };
@@ -36,9 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F9C48291C5003AB00F706ED /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3FEC76681C4FFEB100784B67 /* College Profile Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "College Profile Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FEC766B1C4FFEB100784B67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FEC766D1C4FFEB100784B67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3FEC76701C4FFEB100784B67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FEC76721C4FFEB100784B67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FEC76751C4FFEB100784B67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,8 +101,8 @@
 		3FEC766A1C4FFEB100784B67 /* College Profile Builder */ = {
 			isa = PBXGroup;
 			children = (
+				3F9C48291C5003AB00F706ED /* ViewController.swift */,
 				3FEC766B1C4FFEB100784B67 /* AppDelegate.swift */,
-				3FEC766D1C4FFEB100784B67 /* ViewController.swift */,
 				3FEC766F1C4FFEB100784B67 /* Main.storyboard */,
 				3FEC769B1C5000E100784B67 /* DetailViewController.swift */,
 				3FEC76991C50001500784B67 /* College.swift */,
@@ -265,9 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FEC766E1C4FFEB100784B67 /* ViewController.swift in Sources */,
 				3FEC766C1C4FFEB100784B67 /* AppDelegate.swift in Sources */,
 				3FEC769A1C50001500784B67 /* College.swift in Sources */,
+				3F9C482A1C5003AB00F706ED /* ViewController.swift in Sources */,
 				3FEC769C1C5000E100784B67 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,6 +495,7 @@
 				3FEC76921C4FFEB200784B67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FEC76931C4FFEB200784B67 /* Build configuration list for PBXNativeTarget "College Profile BuilderTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +504,7 @@
 				3FEC76951C4FFEB200784B67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FEC76961C4FFEB200784B67 /* Build configuration list for PBXNativeTarget "College Profile BuilderUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +513,7 @@
 				3FEC76981C4FFEB200784B67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -32,7 +32,7 @@
                                                     <rect key="frame" x="15" y="0.0" width="570" height="43"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -42,6 +42,10 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Vlo-bk-JLi"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="q0n-Lb-hiF"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -50,6 +54,10 @@
                         <barButtonItem key="leftBarButtonItem" systemItem="edit" id="oXM-yI-duN"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="KMi-FN-uB8"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="editButton" destination="oXM-yI-duN" id="e1F-xH-Q0o"/>
+                        <outlet property="tableView" destination="uUO-Yn-W8L" id="ooj-eG-q1i"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
