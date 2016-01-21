@@ -13,7 +13,7 @@ class College: NSObject
     var name = ""
     var location = ""
     var numberOfStudents = 0
-    var image = UIImage(named: "Default")
+    var image = UIImage(named: "Default2")
     
     convenience init(name: String, location: String, numberOfStudents: Int, image: UIImage)
     {
