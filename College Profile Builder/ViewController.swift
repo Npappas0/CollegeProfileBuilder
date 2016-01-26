@@ -19,6 +19,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func viewDidAppear(animated: Bool)
     {
         super.viewDidAppear(animated)
+        tableView.reloadData()
     }
     
     override func viewDidLoad()

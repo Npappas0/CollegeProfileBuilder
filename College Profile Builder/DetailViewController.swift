@@ -32,5 +32,8 @@ class DetailViewController: UIViewController
         college.name = name.text!
         college.location = location.text!
         college.numberOfStudents = Int(enrollment.text!)!
+        name.resignFirstResponder()
+        location.resignFirstResponder()
+        enrollment.resignFirstResponder()
     }
 }
