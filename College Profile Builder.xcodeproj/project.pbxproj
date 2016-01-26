@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3FEC766C1C4FFEB100784B67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC766B1C4FFEB100784B67 /* AppDelegate.swift */; };
 		3FEC766E1C4FFEB100784B67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC766D1C4FFEB100784B67 /* ViewController.swift */; };
-		3FEC76711C4FFEB100784B67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC766F1C4FFEB100784B67 /* Main.storyboard */; };
 		3FEC76731C4FFEB100784B67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC76721C4FFEB100784B67 /* Assets.xcassets */; };
 		3FEC76761C4FFEB100784B67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC76741C4FFEB100784B67 /* LaunchScreen.storyboard */; };
 		3FEC76811C4FFEB200784B67 /* College_Profile_BuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC76801C4FFEB200784B67 /* College_Profile_BuilderTests.swift */; };
@@ -37,7 +36,6 @@
 		3FEC76681C4FFEB100784B67 /* College Profile Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "College Profile Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FEC766B1C4FFEB100784B67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FEC766D1C4FFEB100784B67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3FEC76701C4FFEB100784B67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FEC76721C4FFEB100784B67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FEC76751C4FFEB100784B67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FEC76771C4FFEB100784B67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 			children = (
 				3FEC766B1C4FFEB100784B67 /* AppDelegate.swift */,
 				3FEC766D1C4FFEB100784B67 /* ViewController.swift */,
-				3FEC766F1C4FFEB100784B67 /* Main.storyboard */,
 				3FEC76721C4FFEB100784B67 /* Assets.xcassets */,
 				3FEC76741C4FFEB100784B67 /* LaunchScreen.storyboard */,
 				3FEC76771C4FFEB100784B67 /* Info.plist */,
@@ -234,7 +231,6 @@
 			files = (
 				3FEC76761C4FFEB100784B67 /* LaunchScreen.storyboard in Resources */,
 				3FEC76731C4FFEB100784B67 /* Assets.xcassets in Resources */,
-				3FEC76711C4FFEB100784B67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +292,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3FEC766F1C4FFEB100784B67 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FEC76701C4FFEB100784B67 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3FEC76741C4FFEB100784B67 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -487,6 +475,7 @@
 				3FEC76921C4FFEB200784B67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FEC76931C4FFEB200784B67 /* Build configuration list for PBXNativeTarget "College Profile BuilderTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +484,7 @@
 				3FEC76951C4FFEB200784B67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FEC76961C4FFEB200784B67 /* Build configuration list for PBXNativeTarget "College Profile BuilderUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +493,7 @@
 				3FEC76981C4FFEB200784B67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
