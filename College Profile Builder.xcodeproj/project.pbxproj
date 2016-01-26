@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F9C482D1C57F08900F706ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9C482B1C57F08900F706ED /* Main.storyboard */; };
 		3FEC766C1C4FFEB100784B67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC766B1C4FFEB100784B67 /* AppDelegate.swift */; };
 		3FEC766E1C4FFEB100784B67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC766D1C4FFEB100784B67 /* ViewController.swift */; };
 		3FEC76731C4FFEB100784B67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC76721C4FFEB100784B67 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F9C482C1C57F08900F706ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FEC76681C4FFEB100784B67 /* College Profile Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "College Profile Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FEC766B1C4FFEB100784B67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FEC766D1C4FFEB100784B67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		3FEC766A1C4FFEB100784B67 /* College Profile Builder */ = {
 			isa = PBXGroup;
 			children = (
+				3F9C482B1C57F08900F706ED /* Main.storyboard */,
 				3FEC766B1C4FFEB100784B67 /* AppDelegate.swift */,
 				3FEC766D1C4FFEB100784B67 /* ViewController.swift */,
 				3FEC76721C4FFEB100784B67 /* Assets.xcassets */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F9C482D1C57F08900F706ED /* Main.storyboard in Resources */,
 				3FEC76761C4FFEB100784B67 /* LaunchScreen.storyboard in Resources */,
 				3FEC76731C4FFEB100784B67 /* Assets.xcassets in Resources */,
 			);
@@ -292,6 +296,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		3F9C482B1C57F08900F706ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9C482C1C57F08900F706ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		3FEC76741C4FFEB100784B67 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
