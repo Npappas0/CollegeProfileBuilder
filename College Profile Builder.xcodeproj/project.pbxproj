@@ -97,9 +97,9 @@
 		3FEC766A1C4FFEB100784B67 /* College Profile Builder */ = {
 			isa = PBXGroup;
 			children = (
-				3F9C482B1C57F08900F706ED /* Main.storyboard */,
 				3FEC766B1C4FFEB100784B67 /* AppDelegate.swift */,
 				3FEC766D1C4FFEB100784B67 /* ViewController.swift */,
+				3F9C482B1C57F08900F706ED /* Main.storyboard */,
 				3FEC76721C4FFEB100784B67 /* Assets.xcassets */,
 				3FEC76741C4FFEB100784B67 /* LaunchScreen.storyboard */,
 				3FEC76771C4FFEB100784B67 /* Info.plist */,
