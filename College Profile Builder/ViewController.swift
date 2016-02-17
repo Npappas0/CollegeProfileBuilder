@@ -26,9 +26,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     {
         super.viewDidLoad()
         editButton.tag = 0
-        colleges.append(College(name: "ISU", location: "Illinois", numberOfStudents: 20788, image: UIImage(named: "ISU")!))
-        colleges.append(College(name: "Purdue", location: "Indiana", numberOfStudents: 38770, image: UIImage(named: "Purdue")!))
-        colleges.append(College(name: "Harper", location: "Illinois", numberOfStudents: 56441, image: UIImage(named: "Harper")!))
+        colleges.append(College(name: "ISU", location: "Illinois", numberOfStudents: 20788, image: UIImage(named: "ISU")!, url: "http://illinoisstate.edu/"))
+        colleges.append(College(name: "Purdue", location: "Indiana", numberOfStudents: 38770, image: UIImage(named: "Purdue")!, url: "http://www.purdue.edu/"))
+        colleges.append(College(name: "Harper", location: "Illinois", numberOfStudents: 56441, image: UIImage(named: "Harper")!, url: "http://goforward.harpercollege.edu/"))
     }
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
@@ -64,14 +64,26 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     {
         let alert = UIAlertController(title: "Add College", message: nil, preferredStyle: .Alert)
         alert.addTextFieldWithConfigurationHandler { (textField) -> Void in
-            textField.placeholder = "Add College Here"
+            textField.placeholder = "Add Name Here"
+        }
+        alert.addTextFieldWithConfigurationHandler { (textField) -> Void in
+            textField.placeholder = "Add Location Here"
+        }
+        alert.addTextFieldWithConfigurationHandler { (textField) -> Void in
+            textField.placeholder = "Add # of Students Here"
+        }
+        alert.addTextFieldWithConfigurationHandler { (textField) -> Void in
+            textField.placeholder = "Add Website Here"
         }
         let cancelAction = UIAlertAction(title: "Cancel", style: .Cancel, handler: nil)
         alert.addAction(cancelAction)
         
         let addAction = UIAlertAction(title: "Add", style: .Default) { (action) -> Void in
-            let collegeTextField = alert.textFields![0] as UITextField
-            self.colleges.append(College(name: collegeTextField.text!))
+            let collegeNameTextField = alert.textFields![0] as UITextField
+            let collegeLocationTextField = alert.textFields![1] as UITextField
+            let collegeEnrollmentTextField = alert.textFields![2] as UITextField
+            let collegeWebsiteTextField = alert.textFields![3] as UITextField
+            self.colleges.append(College(name: collegeNameTextField.text!, location: collegeLocationTextField.text!, numberOfStudents: Int(collegeEnrollmentTextField.text!)!, image: UIImage(named: "Default2")!, url: collegeWebsiteTextField.text!))
             self.tableView.reloadData()
         }
         alert.addAction(addAction)
